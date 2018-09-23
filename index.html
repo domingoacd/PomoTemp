@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+    <title>Temporizador</title>
+</head>
+<body>
+        <header class="pomo-head">
+            <img src="tomato.png" alt="Pomo-timer logo"  class="pomo-logo"/>
+            <h1>Pomodoro Timer</h1>
+            <button class="faq-button" id="info-open" value="">How does it work?</button>
+        </header>
+        <div class="container">
+            <div class="temp-selectors">
+                <button class="temp-selector" value="25" data-description="work">Work</button>
+                <button class="temp-selector" value="5" data-description="rest">Rest</button>
+                <button class="temp-selector" value="20" data-description="longRest">Long rest</button>
+            </div>
+            <div class="temp-container">
+                <span class="time" id="time">00:00</span>
+            </div>
+        </div>
+        <div class="info" id="info">
+           <a href="#" id="info-close"><i class="fas fa-window-close close-icon"></i></a>
+            <h2>How does it work?</h2>
+            <p>The Pomodoro Technique is a way to organize your time and activities, dividing them
+                on small lapses so you can keep your concentrantion and avoid procrastination. The rules are:
+            </p>
+            <ul>
+                <li>Decide the task you want to do</li>
+                <li>Start the work temp</li>
+                <li>Do the activity (and only this activity) until the temp ends</li>
+                <li>Take a rest</li>
+                <li>After four pomodoros (four work lapses), take a long rest</li>
+            </ul>
+            <p>In this website, work lapses are 25 minutes long, while rest are 5 minutes and long rest 20 minutes.</p>
+        </div>
+    <script src="javascript.js"> </script>
+</body>
+</html>

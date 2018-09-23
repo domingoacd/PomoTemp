@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: rgb(121, 189, 143)
+}
+/*--------------- HEADER -------------------*/
+.pomo-head{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    background-color: rgb(0,163,136);
+    height: 110px;
+}
+.pomo-head h1{
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.pomo-logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.faq-button{
+    width: 25vw;
+    background-color: rgb(255,97,56);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+}
+.faq-button:hover{
+    background-color: rgb(255, 255, 157);
+}
+/*--------------- CONTENT -------------------*/
+.container{
+    display: flex;
+}
+.temp-container{
+    font-family: 'Roboto Mono', monospace;
+}
+.temp-selectors{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 80vh;
+    min-height: 500px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 0;
+}
+.temp-selector{
+    background-color: rgb(0,163,136);
+    border: none;
+    height: 25%;
+    cursor: pointer;
+    font-size: 30px;
+}
+.temp-selector:hover{
+    background-color: rgb(255, 255, 157);    
+}
+.temp-container{
+    font-size: 10vw;
+    height: min-content;
+    align-self: center;
+    width: 60%;
+    text-align: center;
+}
+/*--------------- 'HOW DOES IT FORK?' PANEL-------------------*/
+.info{
+    transition: 0.2s;
+    background-color: rgb(190,235,159);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    height: 100vh;
+    min-height: 620px;
+    width: 0;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.info-show{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+.close-icon{
+    position: absolute;
+    z-index: 3;
+    right: 20vw;
+    top: 50px;
+    font-size: 40px;
+    color: rgb(255,97,56);
+}
+.close-icon:hover{
+    color: rgb(255, 255, 157);
+}
