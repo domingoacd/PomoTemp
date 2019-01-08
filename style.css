@@ -111,3 +111,15 @@ body{
 .close-icon:hover{
     color: rgb(255, 255, 157);
 }
+@media screen and (max-width: 675px){
+    .pomo-head{
+        padding: 0;
+    }
+    .temp-selectors{
+        margin-left: 10px;
+    }
+    .temp-selector{
+        width: 120%;
+        font-size: 1.5rem;
+    }
+}
