@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Thasadith', sans-serif;
+
 }
 ul{
     list-style: none;
@@ -46,9 +47,7 @@ body{
 .container{
     display: flex;
 }
-.temp-container{
-    font-family: 'Roboto Mono', monospace;
-}
+
 .temp-selectors{
     display: flex;
     flex-direction: column;
@@ -75,6 +74,10 @@ body{
     align-self: center;
     width: 60%;
     text-align: center;
+}
+#time{
+    font-family: 'Major Mono Display', monospace;
+
 }
 /*--------------- 'HOW DOES IT FORK?' PANEL-------------------*/
 .info{
